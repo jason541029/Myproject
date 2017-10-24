@@ -27,6 +27,17 @@ public class VariableTester {
     System.out.println("len:"+len);
     System.out.println(s.charAt(0));
     
+    
+    
+    
+    
+    float f = 5.0f;
+    int x = 5;
+    int y = 3;
+    int z = x % y;
+    System.out.println(z);
+    x--;
+    
 }
 	
 	
