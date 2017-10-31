@@ -38,6 +38,13 @@ public class VariableTester {
     System.out.println(z);
     x--;
     
+    String data =  "123";
+    int n = Integer.parseInt(data);
+    
+    String mydata = String.valueOf(n);
+    
+    
+    
 }
 	
 	
