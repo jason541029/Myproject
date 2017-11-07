@@ -1,7 +1,10 @@
+package com.jason;
 
-public class Odd;
+
 
 	import java.util.Scanner;
+	
+	public class Odd {
 	
 	public static void main(String[] args) {
 		System.out.println("請輸入一個數");
