@@ -1,11 +1,12 @@
 package com.jason.oo;
 
 public class Student {
-
-	int english;
-	int math;
+ int english;
+	
+	protected int math;
 	int chinese;
 	String name;
+	 static int pass = 60;
    public Student()	{
 }
 
