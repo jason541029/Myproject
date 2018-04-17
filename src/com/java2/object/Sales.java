@@ -1,17 +1,33 @@
 package com.java2.object;
 
+
+
 public class Sales {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	int type;
+	int amount;
+	public Sales(){
+		
 	}
-
-	public int type;
-
+	public Sales(int type, int amount) {
+		super();
+		this.type = type;
+		this.amount = amount;
+	}
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
 	public int getAmount() {
-		// TODO Auto-generated method stub
-		return 0;
+		return amount;
 	}
-
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	
 }
+	
+	
+
+
