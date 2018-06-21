@@ -17,7 +17,18 @@ public class Main {
 			// TODO Auto-generated method stub
 			try {
 				BufferedReader in  = new BufferedReader(new FileReader(("schedule.txt")));
-				
+				String line = in.readLine();
+				while(line!=null);
+				String[]tokens = line.split(",");
+			String id = tokens[0];
+			String name = tokens[1];
+			int weekDay = Integer.parseInt(tokens[2]);
+			int hour = Integer.parseInt(tokens[3]);
+			int duration = Integer.parseInt(tokens[4]);
+			Course c  = new Course(id ,name,weekDay,hour,duration);
+			courses.add(c);
+			
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -25,7 +36,6 @@ public class Main {
 		}
 			
 		}
-	}
-
+		}
 	
 
