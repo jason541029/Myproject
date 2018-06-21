@@ -1,15 +1,14 @@
 package com.java2.schedule;
 
+import java.util.ArrayList;
+
 public class Main {
 	
 	public static void main(String[] args) {
-		String code;
-	String object;
-	int time;
-	int week;
-	public Main(String code,String object,int time,int week,) {
-		super();
-		
+	
+		List<Course>courses = new ArrayList<>();
+		public Main() {
 	}
-	}
-}
+	
+
+} 
