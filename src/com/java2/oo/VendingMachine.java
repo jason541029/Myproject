@@ -10,7 +10,7 @@ public void on() {
 	System.out.println("Please insert coins ...");
 	for(int i=0; i<drinks.size(); i++) {
 		Drink drink  = drinks.get(i);
-		System.out.println(drink.getId()+ "+\t"+drink.getName()+"\t"+drink.getPrice());
+		System.out.println(drink.getId()+ "1\t"+drink.getName()+"\t"+drink.getPrice());
 	}
 	Scanner scanner = new Scanner(System.in);
 	int data = -1;

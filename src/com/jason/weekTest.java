@@ -31,7 +31,7 @@ case 7:
 	System.out.println("星期日");
 	break;
 	default:
-	System.out.println("星期日");
+	
 	break;
 }
 
