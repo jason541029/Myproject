@@ -16,6 +16,7 @@ public class Course {
 		this.hour = hour;
 		this.duration = duration;
 	}
+	
 
 	public String getId() {
 		return id;
