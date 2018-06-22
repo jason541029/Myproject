@@ -6,13 +6,32 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 public class Main {
 		List<Course>courses = new ArrayList<>();
 		public Main() {
 			readCourses();
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("輸入星期(1-7)");
+			int weekDay = scanner.nextInt();
+			System.out.println("輸入星期(1-7)");
+			int hour = scanner.nextInt();
+			boolean avail = true;
+			for (Course c: courses) {
+				if(!c.isAvailable(weekDay,hour)) {
+					System.out.println("[有課:"+c.getId()+""+c.getName()+""+c.getWeekDay()+""+c.getHour()+""+c.getDuration());
+					avail = false;
+					break;
+				}
+					
+				}
+			if(avail) {
+				System.out.println("[有空檔]");
+			}
+			}
 			
 			
-		}
+		
 		private void readCourses() {
 			// TODO Auto-generated method stub
 			try {

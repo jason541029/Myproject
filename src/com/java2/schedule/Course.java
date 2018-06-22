@@ -62,6 +62,11 @@ public class Course {
 		
 	}
 
+	public boolean isAvailable(int weekDay2, int hour2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
 
 
